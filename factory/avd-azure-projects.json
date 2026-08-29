@@ -1,0 +1,15 @@
+{
+	"name": "avd-azure-projects",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "westus3",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7e4808de-9c57-4e0d-a39b-19cd30b8f33a",
+		"tenantId": "b419efa0-36e1-4443-ac41-f79cf7016d3f"
+	}
+}
